@@ -1,0 +1,60 @@
+@font-face {
+	font-family: "augusta";
+	src: url('../css/Augusta.ttf');
+        
+   }
+
+
+.has-error{
+    color:red!important;
+    border-color:red;
+}
+
+.has-success{
+    color:green!important;
+    border-color:green;
+}
+
+.body_result{
+    background-color:black;
+}
+
+.container{
+    width:75%;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.image-block{
+    background:url(../images/pngegg.png);
+    background-size: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 20px;
+}
+.img-profil{
+    width:300px;
+}
+.col-custom{
+    color:black;
+    height:50px;
+    font-size: 15px;
+}
+.col-custom label{
+    font-family: "augusta";
+    font-size: 20px;
+    text-decoration: underline;
+
+}
+
+#step2{
+    transition-duration: 0.5s
+}
+
+.nice-border{
+    margin-top : 20px;
+    margin-bottom: 20px;
+    border:2px solid black;
+    background: url(https://i.pinimg.com/originals/79/78/fe/7978fe4620e624116664f5d2ff9134b6.jpg);
+    background-repeat: no-repeat;
+}
